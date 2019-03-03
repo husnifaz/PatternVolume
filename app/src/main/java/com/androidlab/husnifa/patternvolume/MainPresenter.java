@@ -8,7 +8,7 @@ public class MainPresenter {
     }
 
     public double volume(double panjang, double lebar, double tinggi){
-        return panjang / lebar * tinggi;
+        return panjang * lebar * tinggi;
     }
 
     public void hitungVolume(double panjang, double lebar, double tinggi){
